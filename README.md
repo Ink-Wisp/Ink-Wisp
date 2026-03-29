@@ -1,1 +1,1 @@
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?Ink-Wisp=Ashutosh00710)
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graphInk-WispAshutosh00710)

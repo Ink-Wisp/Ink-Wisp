@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Inkwisp 嵌入式系统星图</title>
+  <desc id="desc">以轨道、节点和信号构成的深灰绿色动态品牌主视觉。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111A15"/><stop offset=".55" stop-color="#0B120E"/><stop offset="1" stop-color="#172119"/></linearGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#C5D99A" stop-opacity=".22"/><stop offset=".56" stop-color="#A8C96A" stop-opacity=".08"/><stop offset="1" stop-color="#A8C96A" stop-opacity="0"/></radialGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#61745A"/><stop offset=".5" stop-color="#C5D99A"/><stop offset="1" stop-color="#61745A"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#53645A" stroke-width="1" stroke-opacity=".12"/><circle cx="0" cy="0" r="1" fill="#A8C96A" fill-opacity=".22"/></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <path id="orbitA" d="M744 258a182 74 0 1 0 364 0a182 74 0 1 0-364 0"/>
+    <path id="orbitB" d="M779 167a194 108 0 1 0 274 153a194 108 0 1 0-274-153"/>
+  </defs>
+  <rect x="1" y="1" width="1198" height="518" rx="28" fill="url(#bg)" stroke="#314037" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="480" rx="18" fill="url(#grid)"/>
+  <g fill="#C5D99A"><circle cx="79" cy="74" r="2" opacity=".65"/><circle cx="180" cy="55" r="1.5" opacity=".35"/><circle cx="302" cy="92" r="1" opacity=".45"/><circle cx="420" cy="52" r="2" opacity=".4"/><circle cx="558" cy="104" r="1.5" opacity=".38"/><circle cx="689" cy="57" r="1" opacity=".6"/><circle cx="1129" cy="78" r="1.5" opacity=".55"/><circle cx="1136" cy="430" r="2" opacity=".4"/><circle cx="648" cy="454" r="1.5" opacity=".35"/><circle cx="517" cy="392" r="1" opacity=".5"/></g>
+  <g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif">
+    <text x="76" y="76" fill="#829486" font-size="13" font-weight="600" letter-spacing="3">INKWISP / SYSTEM CHART 01</text>
+    <path d="M76 94H278" stroke="#526458" stroke-width="1"/><circle cx="289" cy="94" r="3" fill="#A8C96A"/>
+    <text x="72" y="179" fill="#F2F5F0" font-size="78" font-weight="700" letter-spacing="11">INKWISP</text>
+    <text x="76" y="226" fill="#C5D99A" font-size="23" font-weight="600" letter-spacing="3">嵌入式系统工程师</text>
+    <text x="76" y="267" fill="#9BAC9F" font-size="18" letter-spacing="1.4">嵌入式系统 · Linux · IoT · 边缘计算</text>
+    <text x="76" y="309" fill="#D9E1DA" font-size="17">构建硬件，编写软件，连接万物。</text>
+    <text x="76" y="337" fill="#718078" font-size="13" letter-spacing="1.8">BUILD HARDWARE · WRITE SOFTWARE · CONNECT EVERYTHING</text>
+    <g transform="translate(76 393)">
+      <path d="M0 14H428" stroke="url(#signal)" stroke-width="2" stroke-opacity=".5"/>
+      <g font-size="11" font-weight="600" letter-spacing="1.5" text-anchor="middle">
+        <g transform="translate(0)"><circle cx="8" cy="14" r="7" fill="#111A15" stroke="#A8C96A"/><text x="8" y="43" fill="#87988C" text-anchor="start">硬件</text></g>
+        <g transform="translate(140)"><circle cx="8" cy="14" r="7" fill="#111A15" stroke="#A8C96A"/><text x="8" y="43" fill="#87988C">固件</text></g>
+        <g transform="translate(280)"><circle cx="8" cy="14" r="7" fill="#111A15" stroke="#A8C96A"/><text x="8" y="43" fill="#87988C">协议</text></g>
+        <g transform="translate(420)"><circle cx="8" cy="14" r="7" fill="#A8C96A" filter="url(#glow)"/><text x="8" y="43" fill="#C5D99A" text-anchor="end">边缘应用</text></g>
+      </g>
+      <circle cy="14" r="3.5" fill="#F2F5F0" filter="url(#glow)"><animate attributeName="cx" values="8;148;288;428" dur="5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0" dur="5.6s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <g transform="rotate(-8 926 258)">
+    <ellipse cx="926" cy="258" rx="246" ry="103" fill="url(#core)"/>
+    <ellipse cx="926" cy="258" rx="182" ry="74" fill="none" stroke="#70846F" stroke-width="1.5" stroke-dasharray="7 9" opacity=".72"><animate attributeName="stroke-dashoffset" from="0" to="-128" dur="18s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="926" cy="258" rx="108" ry="170" fill="none" stroke="#4C6051" stroke-width="1.2" stroke-dasharray="3 8" opacity=".65"><animate attributeName="stroke-dashoffset" from="0" to="96" dur="24s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="926" cy="258" rx="220" ry="132" fill="none" stroke="#33443A" stroke-width="1" opacity=".8" transform="rotate(51 926 258)"/>
+    <path d="M705 258H1147M926 79V437" stroke="#506255" stroke-opacity=".22" stroke-dasharray="2 8"/>
+    <circle cx="926" cy="258" r="64" fill="#101812" stroke="#A8C96A" stroke-width="2"/><circle cx="926" cy="258" r="48" fill="none" stroke="#A8C96A" stroke-opacity=".28"/>
+    <circle cx="926" cy="258" r="78" fill="none" stroke="#A8C96A" stroke-opacity=".14"><animate attributeName="r" values="68;83;68" dur="4.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".35;0;.35" dur="4.8s" repeatCount="indefinite"/></circle>
+    <g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" text-anchor="middle"><text x="926" y="251" fill="#C5D99A" font-size="13" font-weight="700" letter-spacing="2">系统核心</text><text x="926" y="276" fill="#F2F5F0" font-size="12" letter-spacing="1.2">EMBEDDED</text></g>
+    <g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="12" font-weight="600">
+      <g transform="translate(750 231)"><circle r="8" fill="#111A15" stroke="#A8C96A" stroke-width="2"/><circle r="3" fill="#C5D99A" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/></circle><text x="-12" y="-16" fill="#C5D99A" text-anchor="middle">MCU</text><text x="-12" y="31" fill="#718078" text-anchor="middle">设备节点</text></g>
+      <g transform="translate(1010 106)"><circle r="8" fill="#111A15" stroke="#A8C96A" stroke-width="2"/><circle r="3" fill="#C5D99A" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="3.2s" repeatCount="indefinite"/></circle><text x="18" y="-5" fill="#C5D99A">LINUX</text><text x="18" y="15" fill="#718078">系统节点</text></g>
+      <g transform="translate(1100 286)"><circle r="8" fill="#111A15" stroke="#A8C96A" stroke-width="2"/><circle r="3" fill="#C5D99A" filter="url(#glow)"><animate attributeName="opacity" values="1;.4;1" dur="3.8s" repeatCount="indefinite"/></circle><text x="0" y="-18" fill="#C5D99A" text-anchor="middle">IoT</text><text x="0" y="31" fill="#718078" text-anchor="middle">连接节点</text></g>
+      <g transform="translate(844 407)"><circle r="8" fill="#111A15" stroke="#A8C96A" stroke-width="2"/><circle r="3" fill="#C5D99A" filter="url(#glow)"><animate attributeName="opacity" values=".4;1;.4" dur="3.4s" repeatCount="indefinite"/></circle><text x="-10" y="-18" fill="#C5D99A" text-anchor="middle">EDGE</text><text x="-10" y="31" fill="#718078" text-anchor="middle">边缘节点</text></g>
+    </g>
+    <circle r="4" fill="#F3F7EE" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" rotate="auto"><mpath href="#orbitA"/></animateMotion></circle>
+    <circle r="3" fill="#C5D99A" filter="url(#glow)"><animateMotion dur="12s" begin="-4s" repeatCount="indefinite" rotate="auto"><mpath href="#orbitB"/></animateMotion></circle>
+  </g>
+  <g font-family="'Segoe UI',sans-serif" font-size="11" letter-spacing="1.8" fill="#64736A"><text x="76" y="482">CN 31.2304° · SIGNAL ONLINE</text><text x="1124" y="482" text-anchor="end">INK-WISP / 2026</text></g>
+</svg>

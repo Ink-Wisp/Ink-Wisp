@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">Inkwisp 工程系统轨道图</title>
+  <desc id="desc">展示设备、系统、连接、应用和硬件五个工程方向的轨道图。</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151E18"/><stop offset="1" stop-color="#0B110D"/></linearGradient>
+    <radialGradient id="halo2"><stop offset="0" stop-color="#A8C96A" stop-opacity=".17"/><stop offset="1" stop-color="#A8C96A" stop-opacity="0"/></radialGradient>
+    <pattern id="dots2" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#829184" fill-opacity=".12"/></pattern>
+    <filter id="glow2" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="608" rx="26" fill="url(#bg2)" stroke="#314037" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="570" rx="18" fill="url(#dots2)"/>
+  <g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif"><text x="64" y="68" fill="#C5D99A" font-size="24" font-weight="700" letter-spacing="3">工程坐标</text><text x="64" y="94" fill="#68786E" font-size="12" letter-spacing="2.4">SYSTEM ORBIT / FROM SIGNAL TO APPLICATION</text><text x="1136" y="72" fill="#637168" font-size="12" text-anchor="end" letter-spacing="2">五层协同 · 一条完整链路</text></g>
+  <g transform="translate(600 330)">
+    <circle r="215" fill="url(#halo2)"/>
+    <circle r="182" fill="none" stroke="#405047" stroke-width="1" stroke-dasharray="4 10"><animate attributeName="stroke-dashoffset" from="0" to="-140" dur="28s" repeatCount="indefinite"/></circle>
+    <circle r="128" fill="none" stroke="#657963" stroke-width="1.4" stroke-dasharray="8 11"><animate attributeName="stroke-dashoffset" from="0" to="150" dur="22s" repeatCount="indefinite"/></circle>
+    <circle r="78" fill="#101812" stroke="#A8C96A" stroke-width="2"/><circle r="61" fill="none" stroke="#A8C96A" stroke-opacity=".23"/>
+    <circle r="92" fill="none" stroke="#A8C96A" stroke-opacity=".16"><animate attributeName="r" values="82;98;82" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".45;0;.45" dur="5s" repeatCount="indefinite"/></circle>
+    <g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" text-anchor="middle"><text y="-10" fill="#F0F4ED" font-size="17" font-weight="700" letter-spacing="2">INKWISP</text><text y="17" fill="#A8C96A" font-size="12" letter-spacing="2">系统核心</text></g>
+  </g>
+  <g fill="none" stroke="#61725F" stroke-width="1.2" stroke-opacity=".72"><path d="M470 184L536 251"/><path d="M730 178L665 248"/><path d="M793 353L682 340"/><path d="M667 505L625 409"/><path d="M371 403L520 353"/></g>
+  <g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif">
+    <g transform="translate(92 144)"><rect width="378" height="111" rx="16" fill="#121A15" stroke="#34443A"/><rect width="5" height="111" rx="2.5" fill="#A8C96A"/><text x="28" y="34" fill="#C5D99A" font-size="13" font-weight="700" letter-spacing="2">01 / 设备侧</text><text x="28" y="62" fill="#EDF1EB" font-size="18" font-weight="600">MCU · RTOS · 板级驱动</text><text x="28" y="88" fill="#7E8D83" font-size="13">C / C++ · STM32 · ESP32 · Cortex-M · FreeRTOS</text></g>
+    <g transform="translate(730 138)"><rect width="378" height="111" rx="16" fill="#121A15" stroke="#34443A"/><rect x="373" width="5" height="111" rx="2.5" fill="#A8C96A"/><text x="28" y="34" fill="#C5D99A" font-size="13" font-weight="700" letter-spacing="2">02 / 系统侧</text><text x="28" y="62" fill="#EDF1EB" font-size="18" font-weight="600">Embedded Linux · 构建部署</text><text x="28" y="88" fill="#7E8D83" font-size="13">Linux · Shell · GCC · CMake · Git</text></g>
+    <g transform="translate(793 298)"><rect width="315" height="111" rx="16" fill="#121A15" stroke="#34443A"/><rect x="310" width="5" height="111" rx="2.5" fill="#A8C96A"/><text x="28" y="34" fill="#C5D99A" font-size="13" font-weight="700" letter-spacing="2">03 / 连接层</text><text x="28" y="62" fill="#EDF1EB" font-size="18" font-weight="600">总线 · 网络 · IoT 协议</text><text x="28" y="88" fill="#7E8D83" font-size="13">UART · SPI · I²C · CAN · MQTT · Modbus</text></g>
+    <g transform="translate(667 458)"><rect width="441" height="103" rx="16" fill="#121A15" stroke="#34443A"/><rect x="436" width="5" height="103" rx="2.5" fill="#A8C96A"/><text x="28" y="34" fill="#C5D99A" font-size="13" font-weight="700" letter-spacing="2">04 / 应用层</text><text x="28" y="62" fill="#EDF1EB" font-size="18" font-weight="600">Qt · Android · 工程工具</text><text x="28" y="86" fill="#7E8D83" font-size="13">Kotlin · Python · Vue · 设备可视化</text></g>
+    <g transform="translate(92 354)"><rect width="279" height="119" rx="16" fill="#121A15" stroke="#34443A"/><rect width="5" height="119" rx="2.5" fill="#A8C96A"/><text x="28" y="34" fill="#C5D99A" font-size="13" font-weight="700" letter-spacing="2">05 / 硬件</text><text x="28" y="62" fill="#EDF1EB" font-size="18" font-weight="600">原理图 · PCB · 调试</text><text x="28" y="87" fill="#7E8D83" font-size="13">EasyEDA / 嘉立创EDA</text></g>
+  </g>
+  <g fill="#C5D99A" filter="url(#glow2)"><circle cx="470" cy="184" r="4"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="730" cy="178" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></circle><circle cx="793" cy="353" r="4"><animate attributeName="opacity" values="1;.4;1" dur="3.6s" repeatCount="indefinite"/></circle><circle cx="667" cy="505" r="4"><animate attributeName="opacity" values=".4;1;.4" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="371" cy="403" r="4"><animate attributeName="opacity" values="1;.35;1" dur="3.2s" repeatCount="indefinite"/></circle></g>
+</svg>
